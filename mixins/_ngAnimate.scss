@@ -1,0 +1,54 @@
+/* ng-view animation classes
+-----------------------------------*/
+
+.view-animation {
+	&.ng-enter {
+
+		&.ng-enter-active {}
+	}
+
+	&.ng-leave {
+		&.ng-leave-active {}
+	}
+}
+
+/* ng-repeat animation classes
+-----------------------------------*/
+
+.repeat-animation {
+
+	&.ng-enter {}
+	&.ng-leave {}
+
+	&.ng-move {
+
+		&.ng-move-active {}
+	}
+
+	&.ng-enter {
+
+		&.ng-enter-active {}
+	}
+
+	&.ng-leave {
+	
+		&.ng-leave-active {}
+	}
+}
+
+
+/* ng-hide or ng-show animation classes
+-----------------------------------*/
+
+.hide-animation {
+
+	&.ng-hide-add {
+
+		&.ng-hide-add-active {}
+	}
+
+	&.ng-hide-remove {
+
+		&.ng-hide-remove-active {}
+	}
+}
